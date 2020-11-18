@@ -22,7 +22,7 @@
         >
           GitHub
         </a>
-        <NuxtLink to="/route-test" class="button--blue">Test Page</NuxtLink>
+        <a href="/route-test" class="button--blue">Test Page</a>
       </div>
     </div>
   </div>
