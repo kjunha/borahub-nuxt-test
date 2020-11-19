@@ -88,3 +88,9 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# skaffold
+skaffold.yaml
+
+#k8s setting
+k8s*.yaml
