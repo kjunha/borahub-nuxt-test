@@ -1,5 +1,5 @@
 <template>
-  <div class="default-layout p-1">
+  <div>
     <Nuxt />
   </div>
 </template>
@@ -22,6 +22,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+body{
+  min-width: 1250px;
 }
 
 *,

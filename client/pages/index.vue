@@ -10,7 +10,8 @@
         </template>
         <b-form-input></b-form-input>
         <template #append>
-          <b-button variant="success">Button</b-button>
+          <b-button variant="success">Search</b-button>
+          <b-button href="/new" variant="primary">New</b-button>
         </template>
       </b-input-group>
     </div>
@@ -131,10 +132,13 @@ export default {
 }
 
 .gallery {
-  padding-top: 12vh;
+  padding-top: 110px;
 }
 .frame {
   margin: 2.7px;
+}
+.frame:hover {
+  box-shadow: 0 0 6px 2px #555;
 }
 .frame img{
   width: 365px;
