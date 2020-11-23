@@ -120,7 +120,7 @@ export default {
   100%{color: #ccc;}
 }
 .slide-fade-enter-active, .slide-fade-leave-active {
-  transition: all .8s ease;
+  transition: all .5s ease;
 }
 .slide-fade-enter, .slide-fade-leave-to {
   transform: translateY(10px);

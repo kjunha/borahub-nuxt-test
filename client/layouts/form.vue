@@ -6,6 +6,9 @@
         <div class="p-1">
             <Nuxt />
         </div>
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">&copy; 2020 Company Name</p>
+        </footer>
     </div>
 </template>
 <style>
@@ -18,7 +21,7 @@
 }
 .page-wrapper .title{
     font-weight: 300;
-    font-size: 18pt;
+    font-size: 16pt;
     color: #555;
 }
 
